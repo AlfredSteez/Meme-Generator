@@ -1,0 +1,123 @@
+body {
+    font-family: Permanent Marker;
+    text-align: center;
+    background: rgb(255, 175, 255);
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    width: 40%;
+    height: 300px;
+    outline: solid black 15px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.inputDivs {
+    top: 25px;
+    margin: 5px;
+    position: relative;
+}
+
+.inputBox {
+    position: relative;
+    left: 0;
+    width: 93%;
+    margin: 10px;
+    padding: 5px;
+    bottom: 15px;
+    border-radius: 10px;
+    outline: 0 none;
+}
+
+.btn {
+    position: relative;
+    left: 10%;
+    width: 75%;
+    padding: 5px;
+    margin: 18px;
+    bottom: 2px;
+    font-family: Permanent Marker;
+    font-size: 17px;
+    background-color: rgb(164, 118, 250);
+    border-radius: 10px;
+    transition: 0.35s;
+}
+
+.btn:hover {
+    opacity: 60%;
+    box-shadow: 1px 1px 2px rgb(79, 0, 87);
+    cursor: pointer;
+}
+
+.memeSection {
+    position: relative;
+    top: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.meme {
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    background-size: 100% 100%;
+    justify-content: space-evenly; 
+    width: 325px;
+    height: 325px;
+    margin: 20px;
+    border-radius: 10px;
+    outline: black solid 2px;
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    text-align: center;
+    font-family: Anton;
+    font-size: 25px;
+    color: white;
+ }
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    font-family: Anton;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.deleteBtn {
+    position: absolute;
+    left: 0;
+    background-color: rgb(164, 118, 250);
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    height: 100%;
+    font-family: Permanent Marker;
+    font-size: 75px;
+    opacity: 0;
+    transition: all .35s;
+}
+
+.meme:hover .deleteBtn {
+    opacity: 50%;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    box-shadow: 3px 3px 15px rgb(79, 0, 87);
+}
+
+
+
+

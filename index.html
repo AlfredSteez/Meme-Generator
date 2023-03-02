@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="memegen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>DANK MEMES ONLY</h1>
+    <h3>Fill out the forms below and start creating!</h3>
+    <section class="formSection">
+        <form class="inputForm">
+            <div class="inputDivs">
+                <label for="imageUrl"></label>
+                <input 
+                type="url" 
+                name="imageUrl"
+                class="inputBox"
+                placeholder="Add URL here.."
+                required>
+            </div>
+            <div class="inputDivs">
+                <label for="topText"></label>
+                <input 
+                type="text" 
+                name="topText" 
+                class="inputBox"
+                maxlength="25"
+                placeholder="(Optional) What text do you want at the top of the image?">
+            </div>
+            <div class="inputDivs">
+                <label for="bottomText"></label>
+                <input 
+                type="text" 
+                name="bottomText" 
+                class="inputBox"
+                maxlength="25"
+                placeholder="(Optional) What text do you want at the bottom of the image?">
+            </div>
+            <input type="submit" class="btn">
+        </form>
+    </section>
+    <section class="memeSection">
+    </section>
+    <script src="memegen.js"></script>
+</body>
+
+</html>
